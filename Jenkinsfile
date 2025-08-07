@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Clone Repo'){
            steps{
-                git 'https://github.com/harshdhari030/DevSecOps.git'
+                git 'https://github.com/harshdharia030/DevSecOps.git'
            }
         }
         stage('Build Docker Image'){
